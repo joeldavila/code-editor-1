@@ -1,0 +1,126 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgba(46, 46, 45, 0.374);
+  background-image: url("./assets/matrix.png");
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+
+}
+
+.containerr{
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+  height: 100vh;
+  overflow:hidden;
+ 
+}
+
+.text-area-group{
+
+  width: 50%;
+  
+  height: 94vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  gap: 5px;
+  
+
+
+}
+
+.cover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: bisque;
+}
+
+iframe{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  border-radius: 10px;
+
+  
+  
+  
+}
+.title{
+  background-color: white;
+  color: black;
+  height: 25px;
+  
+  padding: 5px;
+  font-size: smaller;
+  position: absolute;
+  z-index: 4;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 10px;
+}
+
+.text{
+  width: 100%;
+  height: calc((100%/2.8 ) - 5px);
+  margin: 5px;
+  
+  
+
+
+}
+
+textarea{
+  width: 97%;
+  height: 100%;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.865);
+  resize: none;
+  position: relative;
+  padding-top: 30px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.567);
+  border: solid 2px ç
+  
+}
+
+textarea:focus{
+  outline: none;
+}
+
+.preview{
+  width: 50%;
+  height: 94vh;
+  overflow:hidden;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.979);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.064);
+  
+  
+}
+
+.preview-tag{
+  width: fit-content;
+  padding: 3px;
+  font-size: smaller;
+  background-color:rgba(13, 224, 31, 0.608); 
+  border-radius: 5px 5px 0 0;
+  color: rgba(0, 0, 0, 0.764);
+  margin: 0;
+  
+}
